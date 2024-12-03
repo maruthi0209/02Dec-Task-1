@@ -10,7 +10,8 @@ var student = {
     'grade' : 'B',
     'attendance' : 80
 }
-var eligibility = ( (student['grade'] == 'A' | student['grade'] == 'B') && student['attendance'] > 75) ? "Eligible for Scholarship" : "Not Eligible for Scholarship";
+var eligibility = ( (student['grade'] == 'A' | student['grade'] == 'B') && student['attendance'] > 75)
+     ? "Eligible for Scholarship" : "Not Eligible for Scholarship";
 console.log(eligibility);
 
 
